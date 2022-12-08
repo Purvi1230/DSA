@@ -1,0 +1,53 @@
+Description
+
+There are N candies in a shop. Find the maximum number of candies you can buy with the B money you have, given the price of each candy.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains two space-separated integers N and B - the length of the array and money you have.
+
+The second line of each test case contains N space-separated integers.
+
+
+Output Format
+
+For each test case, print the maximum number of candies you can buy.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ N, B ≤ 105
+
+1≤ Ai ≤ 1000
+
+It is guaranteed that the sum of N over all test cases does not exceed 105.
+
+
+Sample Input 1
+
+3
+4 6
+1 3 3 5
+5 3
+1 1 1 1 1
+2 10
+1 3
+
+Sample Output 1
+
+2
+3
+2
+
+Note
+
+For the first test case, take candies with price 1 and 5.
+
+For the second test case, take 3 candies with price 1.
+
+For the third test case, you can take all candies.

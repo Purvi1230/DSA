@@ -1,0 +1,44 @@
+Description
+
+You are given an integer N with no more than 105 digits. You have to find the sum of its digits.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one integer N.
+
+
+Output Format
+
+For each test case, print the sum of digits on N on a new line.
+
+
+Constraints
+
+1≤ T ≤ 106
+
+1≤ Number of digits in N ≤ 106
+
+It is guaranteed that the sum of the number of digits in N over all the test cases does not exceed 106.
+
+
+Sample Input 1
+
+3
+12
+1561
+53453451234567876545676540909890989890987987567654567654567656765678765678765
+
+Sample Output 1
+
+3
+13
+443
+
+Note
+
+For the first test case, 1+2 = 3
+
+For the second test case, 1+5+6+1 = 13

@@ -1,0 +1,44 @@
+Description
+
+You are given an integer N. You have to tell whether the number is prime or not.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one integer N.
+
+
+Output Format
+
+For each test case, print “YES” if the number is prime and “NO” if the number is not prime.
+
+
+Constraints
+
+1 ≤ T ≤ 100
+
+1 ≤ N ≤ 107
+
+
+Sample Input 1
+
+3
+5
+12
+37
+
+Sample Output 1
+
+YES
+NO
+YES
+
+Note
+
+For the first test case, divisors of 5 are 1 and 5, so it is a prime number.
+
+For the second test case, divisors of 12 are 1, 2, 3, 4, 6 and 12, so it is not a prime number.
+
+For the third test case, divisors of 37 are 1 and 37, so it is a prime number.

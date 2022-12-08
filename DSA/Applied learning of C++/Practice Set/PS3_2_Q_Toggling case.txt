@@ -1,0 +1,37 @@
+Description
+
+You are given a string S. Convert the character of the string from uppercase to lowercase and from lowercase to uppercase. You don’t have to change characters other than alphabets.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one string S.
+
+
+Output Format
+
+For each test case, print the new string.
+
+
+Constraints
+
+1≤ T ≤ 106
+
+1≤ |S| ≤ 106
+
+It is guaranteed that the sum of |S| over all test cases does not exceed 106.
+
+
+Sample Input 1
+
+2
+hEy, hOw're You?
+AlIcE AnD -, Bob.
+
+Sample Output 1
+
+HeY, HoW'RE yOU?
+aLiCe aNd -, bOB.
+

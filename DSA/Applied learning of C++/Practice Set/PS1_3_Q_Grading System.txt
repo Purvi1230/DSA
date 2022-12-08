@@ -1,0 +1,46 @@
+Description
+
+You are given the marks of a student in mid-term, final-term and the make-up examinations. If the student does not attend an exam, marks are assigned as -1. You have to find the grade of the student according to the following guidelines:
+
+If the student does not take the mid-term or the final-term exam, grade is F
+If the total score in mid-term and final-term is greater than or equal to 80, grade is A.
+If the total score in mid-term and final-term is greater than or equal to 65 and less than 80, grade is B.
+If the total score in mid-term and final-term is greater than or equal to 50 and less than 65, grade is C.
+If the total score in mid-term and final-term is greater than or equal to 30 and less than 50, grade is D. However, if the score of the make-up examination is greater than or equal to 50, the grade will be C.
+If the total score in mid-term and final-term is less than 30, grade is F.
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains three space-separated integers M, F, R - the marks of the student in the mid-term, final-term and the make-up examinations.
+
+
+Output Format
+
+For each test case, print the grade of the student.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ M, F ≤ 50
+
+1≤ R ≤ 100
+
+
+Sample Input 1
+
+4
+41 48 76
+-1 48 100
+20 25 61
+21 5 20
+
+Sample Output 1
+
+A
+F
+C
+F

@@ -1,0 +1,36 @@
+Description
+
+You are given a string S. Ignore the case of characters. Count the frequency of each character from ‘a’ to ‘z’.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one string S.
+
+
+Output Format
+
+For each test case, print 26 space-separated integers denoting the frequency of each character from ‘a’ to ‘z’.
+
+
+Constraints
+
+1≤ T ≤ 106
+
+1≤ |S| ≤ 106
+
+It is guaranteed that the sum of |S| over all test cases does not exceed 106.
+
+
+Sample Input 1
+
+2
+hEy, hOw're You?
+AlIcE AnD -, Bob.
+
+Sample Output 1
+
+0 0 0 0 2 0 0 2 0 0 0 0 0 0 2 0 0 1 0 0 1 0 1 0 2 0 
+2 2 1 1 1 0 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0
