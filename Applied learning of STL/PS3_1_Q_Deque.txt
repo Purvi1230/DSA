@@ -1,0 +1,64 @@
+You are given Q queries and have to perform the following operations:
+
+insertback x - add element x at the end of deque
+eraseback - delete end element of the queue, if queue is not empty
+insertfront x - add element x at the front of deque
+erasefront - delete front element of the queue, if queue is not empty
+printfront - print element at front of the queue, if queue is not empty, otherwise print 0
+printback - print element at back of the queue , if queue is not empty, otherwise print 0
+print x - print the x-th character of the vector, if it exists, otherwise print 0. (0-indexing)
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one integer Q - the number of queries.
+
+Each of the next Q ines contains queries.
+
+
+Output Format
+
+For each test case, print the required queries.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ Q ≤ 105
+
+1≤ X ≤ 106
+
+It is guaranteed that the sum of Q over all test cases does not exceed 105
+
+
+Sample Input 1
+
+1
+8
+insertback 3
+insertback 5
+insertfront 2
+printback
+print 1
+eraseback
+insertfront 1
+printfront
+
+Sample Output 1
+
+5
+3
+1
+
+Note
+
+Deque becomes [3]
+Deque becomes [3, 5]
+Deque becomes [2, 3, 5]
+Last element of deque is 5
+Element at index 1 is 3
+Deque becomes [2, 3]
+Deque becomes [1, 2, 3]
+First element of deque is 1

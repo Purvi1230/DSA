@@ -1,0 +1,62 @@
+Description
+
+You are given Q queries and have to perform the following operations:
+
+add x - add element x in the set
+erase x - delete element with value x, if it exists
+find x - if x is present print “YES”, else print “NO”
+print - print the values in set
+empty - empty the set
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one integer Q - the number of queries.
+
+Each of the next Q ines contains queries.
+
+
+Output Format
+
+For each test case, print the required queries.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ Q ≤ 105
+
+1≤ X ≤ 106
+
+It is guaranteed that the sum of Q over all test cases does not exceed 105.
+
+
+Sample Input 1
+
+1
+7
+add 3
+add 2
+add 7
+print
+find 2
+erase 2
+find 2
+
+Sample Output 1
+
+2 3 7 
+YES
+NO
+
+Note
+
+Set becomes: [3]
+Set becomes: [2, 3]
+Set becomes: [2, 3, 7]
+Set is: 2, 3, 7.
+2 exists in the set
+Set becomes: [3, 7]
+2 does not exist in the set

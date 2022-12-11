@@ -1,0 +1,84 @@
+Description
+
+You are given an array A of size N. You have to answer the following queries
+
+1 x - Find the smallest Element ≥ x 
+2 x - Find the smallest Element > x 
+3 x - Find the number of elements ≤ x
+4 x - Find the number of elements < x
+If the answer does not exist print -1.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains two space-separated integers N Q - the size of the given array and the number of queries
+
+The second line of each test case contains N space-separated integers.
+
+Each of the next Q lines contains the queries in the form of t x.
+
+
+Output Format
+
+For each test case, print the answer of the required queries.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ N, Q ≤ 105
+
+1≤ Ai ≤ 106
+
+1≤ t ≤ 4
+
+1≤ x ≤ 106
+
+It is guaranteed that the sum of Q over all test cases does not exceed 105.
+
+
+Sample Input 1
+
+2
+5 4
+1 2 2 3 4
+1 2
+2 2
+3 4
+3 2
+3 2
+5 5 5
+3 5
+4 5
+
+Sample Output 1
+
+2 3 5 3 
+3 0 
+
+Sample Input 2
+
+1
+5 4
+1 2 3 4 5
+1 5
+1 6
+3 2
+3 0
+
+Sample Output 2
+
+5 -1 2 0
+
+Note
+
+For the first test case, 
+
+The smallest element ≥ 2 is 2
+The smallest element > 2 is 3
+The number of elements ≤ 4 is 5 (1, 2, 2, 3, 4)
+The number of elements ≤ 2 is 3 (1, 2, 2)
+

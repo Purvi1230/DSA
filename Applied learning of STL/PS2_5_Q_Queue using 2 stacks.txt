@@ -1,0 +1,61 @@
+Description
+
+Implement a queue using 2 stacks. You will be given the following type of Q queries:
+
+push x - add x to the queue
+pop - pop the front element of the queue, you also have to print the element you have popped.
+front - find the element at the front of the queue
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains one integer Q - the number of queries
+
+Each of the next Q lines contain the queries.
+
+
+Output Format
+
+For each test case, print the required queries.
+
+
+Constraints
+
+1≤ T ≤ 106
+
+1≤ Q ≤ 106
+
+1≤ X ≤ 106
+
+It is guaranteed that the sum of Q over all test cases does not exceed 106.
+
+
+Sample Input 1
+
+1
+7
+push 3
+push 5
+pop
+front
+push 7
+pop
+pop
+
+Sample Output 1
+
+3
+5
+5
+7
+
+Note
+
+Queue becomes: [3]
+Queue becomes: [3, 5]
+Queue becomes [5] and element at front was 3
+Queue becomes [5]  and element at front is 5
+Queue becomes [5, 7]
+Queue becomes [7] and element at front was 5
+Queue becomes empty and element at front was 7
