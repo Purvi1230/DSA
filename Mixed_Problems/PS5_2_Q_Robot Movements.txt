@@ -1,0 +1,50 @@
+Description
+
+You have a robot which can move up, down, left and right. You placed it at (X, Y) in a grid with R rows and C columns. The robot is given N instructions of the form N(up), S(down), E(right) and W(left). The robot will continue moving the same direction until it reaches a square that it has not been in before. Find the coordinates of the square the robot will reach after the instructions are performed. The robot will not go out of the grid, according to the instructions.
+
+
+Input Format
+
+The first line of the input contains one integer T - the number of test cases. Then T test cases follow.
+
+The first line of each test case contains five space-separated integers N, R, C, X, Y - the length of the instructions, size of grid and the coordinates of initial position.
+
+The second line of each test case contains a string S - the instructions .
+
+
+Output Format
+
+For each test case, print the coordinates of the square the robot will reach after the instructions are performed.
+
+
+Constraints
+
+1≤ T ≤ 105
+
+1≤ N ≤ 5*104
+
+1≤ R, C ≤ 5*104
+
+1≤ X ≤ R
+
+1≤ Y ≤ C
+
+
+Sample Input 1
+
+2
+3 4 5 2 3
+SNW
+4 5 5 2 2 
+SESE
+
+Sample Output 1
+
+1 2
+4 4
+
+Note
+
+For the first test case, (2,3) -> (3,3) -> (1,3) -> (1,2)
+
+For the second test case, (2,2) -> (3,2) -> (3,3) -> (4,3) -> (4,4)

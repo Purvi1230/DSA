@@ -1,0 +1,149 @@
+Description
+
+You are given four integers - 
+A
+,
+B
+,
+C
+, and 
+P
+. 
+P
+ is a prime number.
+Find 
+A
+B
+C
+%
+P
+.
+
+NOTE: 
+0
+0
+=
+1
+.
+
+
+Input Format
+
+The first line of the input contains one integer 
+T
+ - the number of test cases. Then 
+T
+ test cases follow.
+The first line of each test case contains four space-separated integers 
+A
+,
+B
+,
+C
+,
+P
+.
+
+
+Output Format
+
+For each test case, print  
+A
+B
+C
+%
+P
+
+Constraints
+
+1
+≤
+T
+≤
+2
+×
+10
+5
+
+0
+≤
+A
+,
+B
+,
+C
+≤
+10
+9
+
+2
+≤
+P
+≤
+10
+4
+
+Sample Input 1
+
+3
+2 4 2 7
+1 6 20 5
+3 1 200 3
+
+Sample Output 1
+
+2
+1
+0
+
+Note
+
+For the first test case, 
+2
+4
+2
+%
+7
+=
+2
+16
+%
+7
+=
+65536
+%
+7
+=
+2
+.
+For the second test case, 
+1
+6
+20
+%
+5
+=
+1
+%
+5
+=
+1
+.
+For the third test case, 
+3
+1
+200
+%
+3
+=
+3
+1
+%
+3
+=
+3
+%
+3
+=
+0
+.
