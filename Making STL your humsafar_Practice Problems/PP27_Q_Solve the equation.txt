@@ -1,0 +1,48 @@
+Description
+
+You have given an equation of the form  (a op1 b op2 c) mod p
+op1, op2 are operators which can be {+, -, *, /}.
+Consider the example: (a * b / c) mod p. Here op1 = * and op2 = /.
+It is guaranteed that (a, p) = (b, p) = (c, p) = 1 and p is a prime number.
+Compute the value of the equation.
+
+Note: 
+
+(a, b) = 1, means a and b are coprime numbers.
+Operators follow the same precedence rules as in mathematics.
+
+Input Format
+
+The first line contains T (1 ≤ T ≤ 100000), the number of test cases.
+Each of the next T lines contains four positive integers a, b, c, and p (1 ≤ a, b, c, p ≤ 109).
+It is guaranteed that (a, p) = (b, p) = (c, p) = 1 and p is a prime number.
+
+
+Output Format
+
+For each test case, print a single number denoting the value of the equation. Since it is mod p, the value must belong to 0 to p - 1.
+
+
+Sample Input 1
+
+2
+
+(1 + 2 / 1) mod 3
+
+(2 * 3 - 8) mod 5
+
+
+Sample Output 1
+
+0
+
+3
+
+
+Note
+
+Explanation 1:
+(1 + 2 / 1) mod 3 = 3 mod 3 = 0.
+
+Explanatino 2:
+(2 * 3 - 8) mod 5 = -2 mod 5 = 3.
