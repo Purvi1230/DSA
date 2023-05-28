@@ -1,0 +1,52 @@
+Description
+
+Given an array of N integers and Q queries. Initially, all the elements of the array have value 0.
+
+In each query 4 integers A, D, L, R is given, which means perform AP addition
+
+Arr[L]+=A
+
+Arr[L+1]+=A+D
+
+Arr[L+2]+=A+2D
+
+Arr[L+3]+=A+3D
+
+.
+
+.
+
+.
+
+.
+
+Arr[R]+=A+(R-L)*D.
+
+After performing all the operations. Print the final array % 10^9+7.
+
+
+Input Format
+
+The first line contains two space-separated integers N, Q where 1<=N<=10^6, 1<=Q<=10^6.
+
+Next Q lines contain four space-separated integers A, D, L, R where 0<=A,D<=10^4, 1<=L<=R<=N.
+
+
+Output Format
+
+Print the N space-separated integer representing the final array %10^9+7.
+
+
+Sample Input 1
+
+5 5
+1 3 1 5
+2 4 2 2
+5 6 3 5
+6 9 5 5
+1 4 2 4
+
+Sample Output 1
+
+1 7 17 30 36 
+
