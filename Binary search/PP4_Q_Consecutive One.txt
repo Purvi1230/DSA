@@ -1,0 +1,35 @@
+Description - Consecutive one
+
+Given a binary array of length N. The score of an array is the length of the longest continuous subsegment consisting of only one.
+Find the maximum score possible if you can change at most K elements of the array.
+
+Input Format
+The first line contains an integer T, the number of test cases.
+The first line of each test case contains two space-separated integer N, K where
+The next line contains N space-separated integers which are either 0 or 1.
+
+Output Format
+For each test case print the maximum score possible if you can change at most K elements of the array in a new line.
+Constraints
+1 ≤ T ≤ 104
+1 ≤ N ≤ 105
+0 ≤ K ≤ N
+Sum of N across all test cases ≤ 106.
+
+Sample Input 1
+5 
+10 2 
+1 0 1 1 0 1 1 0 0 1
+10 1
+1 1 0 1 0 0 0 1 0 0
+10 3
+1 0 0 1 1 0 1 1 0 1
+10 3
+1 1 1 0 0 0 1 1 1 1
+10 3
+1 1 0 0 1 1 0 0 1 1
+
+Sample Output 1
+7
+48 10
+7
