@@ -1,0 +1,25 @@
+Description - Hard Floor
+
+Your task is to find the answer to the following sum.
+summission i to n ((n/i)^m)%1000000007
+
+Input Format
+The only line of input contains two space-separated integers n and m.
+
+Output Format
+Print the answer on a new line.
+Constraints
+1 ≤ n ≤ 1012
+1 ≤ m ≤ 109
+
+Sample Input 1
+4 2
+
+Sample Output 1
+22
+
+Sample Input 2
+100000000000 100000000
+
+Sample Output 2
+728180943

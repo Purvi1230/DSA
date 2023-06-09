@@ -1,0 +1,41 @@
+Description - Inefficient Program
+
+Consider the following function.
+long long get(long long L, long long R, long long m) {
+    long long sum = 0;
+    for(long long i = L; i <= R; i++) {
+        sum += (i % m);
+        sum %= 1000000007;
+    }
+    return sum;
+}
+The above program is very inefficient for larger values of L, R, m.
+Your challenge is to write an efficient program, that will find the value of get function in very less time.
+
+Input Format
+The first line of input contains one integer T — the number of test cases. Then T test cases follow.
+The only line of each test case contains three space-separated numbers L, R, and m.
+
+Output Format
+For each test case, print a number on a new line denoting the answer return by get function in the above program.
+Constraints
+1 ≤ T ≤ 105
+1 ≤ L ≤ R ≤ 1018
+1 ≤ m ≤ 1018
+
+Sample Input 1
+3
+4 5 6
+4 10 9
+1 10000000000000000 93464156618
+
+Sample Output 1
+9
+31
+14972415
+
+Note
+Explanation 1:
+Sum = (4 % 6 + 5 % 6) % 1000000007 = 9
+Explanation 2:
+Sum = (4 % 9 + 5 % 9 + 6 % 9 + 7 % 9 + 8 % 9 + 9 % 9 + 10 % 9) % 1000000007 = 4 + 5 + 6 + 7 + 8 + 0 + 1 = 31

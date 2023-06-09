@@ -1,0 +1,22 @@
+Description - How many solutions
+
+Given the value of integer N how many solutions does the following equation have?
+1/x + 1/y = 1/N
+If x and y are integers there is only a finite number of solutions but if x and y are real numbers then there can be an infinite number of solutions. What if x and y are floating-point numbers with limited size, e.g. x and y are floating point numbers with d digits after the decimal points, how many different solutions will be there?
+
+Input Format
+Input file contains at most 2000 lines of input. 
+Each line contains two integers N (0 < N ≤ 10000000000) and d (0 ≤ d ≤ 1000), here d means that there can be maximum d digits after the decimal point. Input is terminated by a line containing two zeros.
+This line should not be processed.
+
+Output Format
+For each line of input, produce one line of output which contains an integer T. This line contains the number of different solutions the equation has for the given value of N and d. As the value of T can be very large so output T modulo 1000007.
+
+Sample Input 1
+23 10
+10 2
+0 0
+
+Sample Output 1
+2645
+97

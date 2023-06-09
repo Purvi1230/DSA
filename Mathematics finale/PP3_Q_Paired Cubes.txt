@@ -1,0 +1,21 @@
+Description - Paired Cubes
+You have given n positive integers A1, A2, …, An. Your task is to find the number of pairs (i, j) such that Ai * Aj is a cube number.
+
+Input Format
+The first line of input contains n - the size of the array.
+The second line of input contains nmspace-separated integers A1, A2, …, An.
+
+Output Format
+Print the answer on a new line.
+Constraints
+1 ≤ n ≤ 105
+1 ≤ Ai ≤ 106
+
+Sample Input 1
+5 
+1 2 4 8 27
+
+Sample Output 1
+4
+
+Note-The pairs are (1,8), (2,4), (1,27), (8,27).

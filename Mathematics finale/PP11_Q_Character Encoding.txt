@@ -1,0 +1,26 @@
+Description - Character Encoding
+
+Find the number of solutions of following equation.
+x1 + x2 + x3 + … + xn = k, satisfying that 0 ≤ xi < m, modulo 1000000007.
+
+Input Format
+The only line of input contains three space-separated integers n, m, k.
+
+Output Format
+Print the number of solutions.
+Constraints
+1 ≤ n, m, k ≤ 105
+
+Sample Input 1
+2 4 5
+
+Sample Output 1
+2
+
+Sample Input 2
+20 10 50
+
+Sample Output 2
+366736536
+
+Note - For the first test cases, only two solutions exist (2, 3) and (3, 2).

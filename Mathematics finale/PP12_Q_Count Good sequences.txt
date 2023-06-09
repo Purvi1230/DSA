@@ -1,0 +1,32 @@
+Description - Count Good Sequences
+
+You are given a sequence A1, A2, …, AN. Let's call a subsequence Ai1, Ai2, …, Aik (for any k > 0, 1 ≤ i1 < i2 < … < ik ≤ N) good if the median of this subsequence is an element of this subsequence.
+Find the number of good subsequences. Since this number may be large, compute it modulo 1000000007 (109+7).
+
+Note:
+The median of a set of data is the middlemost number in the set. The median is also the number that is halfway into the set. To find the median, the data should first be arranged in order from least to greatest.
+For odd length sequence, the median is the middle element in the sorted sequence. While for even length sequence, it is the average of the middle two elements.
+
+Input Format
+The first line of input contains T - the number of test cases.
+The first line of each test case contains a
+number N - the size of the array.
+The second line of each test case contains N space-separated integers A1, A2, ..., AN.
+
+Output Format
+For each test case, print the number of good subsequences on a new line.
+Constraints
+1 ≤ T ≤ 30
+1 ≤ N ≤ 1000
+1 ≤ Ai ≤ 2N
+
+Sample Input 1
+1
+3 2
+3
+2
+
+Sample Output 1
+5
+
+Note - The good subsequences are [2], [3], [2], [2,2], [2,3,2].
